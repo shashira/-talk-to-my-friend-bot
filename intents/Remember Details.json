@@ -1,0 +1,35 @@
+{
+  "id": "a67be1b2-6da7-4493-bb9d-76939c256f21",
+  "name": "Remember Details",
+  "auto": true,
+  "contexts": [
+    "awaitingNameConfirm",
+    "awaitingAge",
+    "awaitingGender"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Of course! You are my friend. \nYou are a #awaitingGender.GenderDetails named #awaitingNameConfirm.name and you are #awaitingAge.age years old",
+            "How could I ever forget my friend. Your name is #awaitingNameConfirm.name and you are a #awaitingGender.GenderDetails who is #awaitingAge.age years old.",
+            "You are #awaitingNameConfirm.name , the best person I know and you are a #awaitingGender.GenderDetails who\u0027s #awaitingAge.age years."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

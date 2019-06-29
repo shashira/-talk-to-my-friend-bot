@@ -1,0 +1,110 @@
+[
+  {
+    "id": "de56b4de-09f5-41a2-9560-1adaccb210bd",
+    "data": [
+      {
+        "text": "how to play ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "basketball",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5abebe13-9712-4d83-b588-a714c64ae7b5",
+    "data": [
+      {
+        "text": "tell me something about ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "basketball",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "56e52161-0ced-4ab1-9863-8e76386cbcd4",
+    "data": [
+      {
+        "text": "how is ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "basketball",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " played",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "82e541ab-0afe-42e2-8a18-a255be1f875c",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "basketball",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46791447-1660-4e7a-9a36-a9837fa675ca",
+    "data": [
+      {
+        "text": "basketball",
+        "alias": "basketball",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c16df14-ff74-4748-9520-94178487b81c",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "basketball",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

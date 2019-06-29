@@ -1,0 +1,132 @@
+[
+  {
+    "id": "f3b7d9d1-8548-43f2-86f9-72a6c24e2e42",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "football",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a8d2922-d830-4da9-8976-f5bfbb3120d1",
+    "data": [
+      {
+        "text": "how is ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "football",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " played",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1a381dce-a1c0-4889-929e-e95bfe8f1bda",
+    "data": [
+      {
+        "text": "football",
+        "alias": "football",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8be04a42-49d3-4ced-9537-ce80f5196c78",
+    "data": [
+      {
+        "text": "how to play ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "football",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "068f2ab3-a1ba-4b47-b81f-514c1fecf255",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "football",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "851b4acb-c7b0-4e03-a32d-6999c68af26f",
+    "data": [
+      {
+        "text": "tell me something about ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "football",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c1c89c16-871a-4fef-8e8e-bfe3bcfb21fc",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "football",
+        "alias": "football",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

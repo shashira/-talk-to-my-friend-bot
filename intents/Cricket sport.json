@@ -1,0 +1,86 @@
+{
+  "id": "ff9b206d-d082-4d83-8575-054ad6dab51e",
+  "name": "Cricket sport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c41d3197-c679-4006-88be-c16608fdd19f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "cricket",
+          "value": "$cricket",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 20-metre pitch with a wicket at each end. The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss each player that means they are \"out\". When ten players have been dismissed, the innings ends and the teams swap roles.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Cricket",
+              "description": "",
+              "largeImage": {
+                "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201807/MSD.png?2Hz2Nt_9xcCKL00luz1ZBMMpYqkWN.yK",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://en.wikipedia.org/wiki/Cricket"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Tennis"
+            },
+            {
+              "title": "Basketball"
+            },
+            {
+              "title": "Football"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "How to play Cricket?",
+          "url": "https://www.youtube.com/watch?v\u003dyPXAzgwwo0A"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

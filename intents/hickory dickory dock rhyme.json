@@ -1,0 +1,72 @@
+{
+  "id": "e1652d43-fcf3-4a21-8c6f-f2f4dbbeaef6",
+  "name": "hickory dickory dock rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "here are the words to this rhyme. let us all sing along!",
+          "ssml": "",
+          "displayText": "Hickory, dickory, dock,\nThe mouse ran up the clock;\nThe clock struck one,\nAnd down he run,\nHickory, dickory, dock."
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Hickory Dickory Dock",
+              "description": "",
+              "largeImage": {
+                "url": "https://i.ytimg.com/vi/-j6Dk6qLFB8/maxresdefault.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Hickory%20Dickory%20Dock%20-%20Children\u0027s%20Song%20with%20Lyrics.mp3?alt\u003dmedia\u0026token\u003d63bd1fbd-ad44-4991-a62d-7abc569e1c89"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Johny Johny yes papa"
+            },
+            {
+              "title": "Ding Dong bell"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video for Hickory Dickory dock",
+          "url": "https://www.youtube.com/watch?v\u003dygcN65SlLFg"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

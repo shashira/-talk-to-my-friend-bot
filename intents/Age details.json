@@ -1,0 +1,58 @@
+{
+  "id": "fc16bef8-d507-4425-8952-793ac3871c2d",
+  "name": "Age details",
+  "auto": true,
+  "contexts": [
+    "awaitingAge"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaitingGender",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "54b5ba52-cfed-4e2b-b078-b4b7ddfc03b4",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "age",
+          "value": "$age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Whats your age"
+            },
+            {
+              "lang": "en",
+              "value": "age"
+            },
+            {
+              "lang": "en",
+              "value": "your age"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh wow! I am quite younger than you.\nCan you please tell me if you are a boy or a girl?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

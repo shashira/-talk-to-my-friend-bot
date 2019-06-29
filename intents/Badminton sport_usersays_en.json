@@ -1,0 +1,110 @@
+[
+  {
+    "id": "17c8fb28-98f2-4550-a31d-a79c89f7904a",
+    "data": [
+      {
+        "text": "how to play ",
+        "userDefined": false
+      },
+      {
+        "text": "badminton",
+        "alias": "badminton",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f727b6d-c34f-4b04-bf20-510480e796fd",
+    "data": [
+      {
+        "text": "how is ",
+        "userDefined": false
+      },
+      {
+        "text": "badminton",
+        "alias": "badminton",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " played",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ecc33c4b-0153-454b-8825-f582dafbb0dc",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "badminton",
+        "alias": "badminton",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "103b5027-867b-40a6-b6cd-296ef9f2def3",
+    "data": [
+      {
+        "text": "badminton",
+        "alias": "badminton",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "860fa1b4-f7cf-44b7-9bab-68d2be71b472",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "badminton",
+        "alias": "badminton",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "83f952c7-6f06-4a98-9891-4311ab96400b",
+    "data": [
+      {
+        "text": "tell me something about ",
+        "userDefined": false
+      },
+      {
+        "text": "badminton",
+        "alias": "badminton",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

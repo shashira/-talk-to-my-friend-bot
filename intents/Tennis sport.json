@@ -1,0 +1,89 @@
+{
+  "id": "b0f422c4-c9ad-481b-aa49-41c88c68908d",
+  "name": "Tennis sport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bcab987f-992a-4f9b-8e85-c322a5ebcc3f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "tennis",
+          "value": "$tennis",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each. Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent\u0027s court.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Tennis",
+              "description": "",
+              "largeImage": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Roger_Federer_2012_Indian_Wells.jpg/300px-Roger_Federer_2012_Indian_Wells.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://www.youtube.com/watch?v\u003d0dYVIEdTX_s"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Badminton"
+            },
+            {
+              "title": "Basketball"
+            },
+            {
+              "title": "golf"
+            },
+            {
+              "title": "football"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "How to play Tennis",
+          "url": "https://www.youtube.com/watch?v\u003d0dYVIEdTX_s"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "7df6f6f8-a932-4456-ae6a-dfa0271f5afc",
+    "data": [
+      {
+        "text": "girl",
+        "alias": "GenderDetails",
+        "meta": "@GenderDetails",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1847f7b2-cd5d-4dec-8c40-8de230a01f52",
+    "data": [
+      {
+        "text": "boy",
+        "alias": "GenderDetails",
+        "meta": "@GenderDetails",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca08dfc9-beaa-423f-b897-29af91ce9e9c",
+    "data": [
+      {
+        "text": "im a ",
+        "userDefined": false
+      },
+      {
+        "text": "girl",
+        "alias": "GenderDetails",
+        "meta": "@GenderDetails",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d2dcf3f-8662-46be-962e-2a1f9d67cd38",
+    "data": [
+      {
+        "text": "I\u0027m a ",
+        "userDefined": false
+      },
+      {
+        "text": "boy",
+        "alias": "GenderDetails",
+        "meta": "@GenderDetails",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46ae6b5c-0ffc-47ac-a50e-061d176fe958",
+    "data": [
+      {
+        "text": "I am a ",
+        "userDefined": false
+      },
+      {
+        "text": "girl",
+        "alias": "GenderDetails",
+        "meta": "@GenderDetails",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "127c2c5b-8964-4c5b-8c22-6696bd80c861",
+    "data": [
+      {
+        "text": "I am a ",
+        "userDefined": false
+      },
+      {
+        "text": "boy",
+        "alias": "GenderDetails",
+        "meta": "@GenderDetails",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

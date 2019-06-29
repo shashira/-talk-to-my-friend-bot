@@ -1,0 +1,64 @@
+{
+  "id": "f3357667-e6d6-4a1c-b9e7-cdcf8243d8ed",
+  "name": "Get Name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaitingAge",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "71378433-aa53-4e5a-91f6-4f058e8bbca5",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you tell me your name?"
+            },
+            {
+              "lang": "en",
+              "value": "I want to know your name."
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me your name."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you $name and nice to meet you! What\u0027s your age?",
+            "Nice to meet you $name Can you tell me your age?",
+            "Thats a great name. Now please tell me your age"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

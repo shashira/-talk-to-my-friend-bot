@@ -1,0 +1,86 @@
+{
+  "id": "a2224851-aab1-4a42-836b-b0d21b15f837",
+  "name": "Badminton sport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a1280003-eca8-401b-b0d9-e64010ba3cc8",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "badminton",
+          "value": "$badminton",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are \"singles\" (with one player per side) and \"doubles\" (with two players per side). Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the opposing side\u0027s half of the court.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Badminton",
+              "description": "",
+              "largeImage": {
+                "url": "https://img.jakpost.net/c/2019/04/26/2019_04_26_70901_1556293642._large.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://en.wikipedia.org/wiki/Badminton"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Basketball"
+            },
+            {
+              "title": "Hockey"
+            },
+            {
+              "title": "Football"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "More about Badminton",
+          "url": "https://en.wikipedia.org/wiki/Badminton"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

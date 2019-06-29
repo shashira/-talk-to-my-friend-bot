@@ -1,0 +1,86 @@
+{
+  "id": "e2837cf7-c96d-4a28-9a22-64ac1bb0d609",
+  "name": "Hockey sport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "40baeae8-672a-43fc-a846-fad468cbab99",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "hockey",
+          "value": "$hockey",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Hockey is a sport in which two teams play against each other by trying to manoeuvre a ball or a puck into the opponent\u0027s goal using a hockey stick. There are many types of hockey such as bandy, field hockey, and ice hockey.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Hockey",
+              "description": "",
+              "largeImage": {
+                "url": "https://www.sd44.ca/ProgramsServices/Academies/FieldHockey/PublishingImages/Pages/default/Field%20Hockey-6007.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://www.sd44.ca/ProgramsServices/Academies/FieldHockey/PublishingImages/Pages/default/Field%20Hockey-6007.jpg"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Golf"
+            },
+            {
+              "title": "Football"
+            },
+            {
+              "title": "Badminton"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "How to play Hockey",
+          "url": "https://www.youtube.com/watch?v\u003dNPnrKxFwInc"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

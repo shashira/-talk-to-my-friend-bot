@@ -1,0 +1,72 @@
+{
+  "id": "0ae937fa-b437-451d-9d8d-d73db6ed6be5",
+  "name": "Baa Baa Black Sheep rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Read the words to sing along",
+          "ssml": "",
+          "displayText": "Baa, baa, black sheep\nHave you any wool?\nYes sir, yes sir, three bags full.\nOne for the master,\nAnd one for the dame,\nAnd one for the little boy\nWho lives down the lane."
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Baa Baa black sheep",
+              "description": "",
+              "largeImage": {
+                "url": "https://i.pinimg.com/originals/f4/12/43/f412432255b63de04524d3cfade19ab6.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Baa%20Baa%20Black%20Sheep%20CoCoMelon%20Nursery%20Rhymes%20%26%20Kids%20Songs.mp3?alt\u003dmedia\u0026token\u003d443b55e3-b5c0-4fcb-ab2c-babd995057e1"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Jack and Jill"
+            },
+            {
+              "title": "Rain Rain Go Away"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video for Baa Baa Black sheep",
+          "url": "https://www.youtube.com/watch?v\u003dMR5XSOdjKMA"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

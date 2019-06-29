@@ -1,0 +1,82 @@
+[
+  {
+    "action": "smalltalk.greetings.bye",
+    "customAnswers": [
+      "Gonna miss you! See you later Alligator.",
+      "Goodbye little fella.",
+      "Miss you! Bye!!",
+      "Have a great day ahead!",
+      "Bye! Come back soon."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodevening",
+    "customAnswers": [
+      "A very good evening to you as well!"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodmorning",
+    "customAnswers": [
+      "A very good morning to you as well!",
+      "It\u0027s always a good morning for your friend Bot!",
+      "It certainly is a good morning now that I\u0027m talking to you."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodnight",
+    "customAnswers": [
+      "Good night, Sleep tight and Don\u0027t let the bedbugs bite!",
+      "Nighty-Night cutie!",
+      "I hope you have awesome dreams tonight! Good night!",
+      "I still want to talk to you but it\u0027s time for bed so good night. Let\u0027s talk tomorrow. Bye!"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.hello",
+    "customAnswers": [
+      "Hello there!",
+      "Hiya!",
+      "Hey awesome person!"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.how_are_you",
+    "customAnswers": [
+      "I am always good. What about you?"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.nice_to_meet_you",
+    "customAnswers": [
+      "Oh it\u0027s a pleasure meeting you too."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.nice_to_see_you",
+    "customAnswers": [
+      "Oh it\u0027s a pleasure seeing you too."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.nice_to_talk_to_you",
+    "customAnswers": [
+      "Oh it\u0027s a pleasure talking to you too."
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.whatsup",
+    "customAnswers": [
+      "The ceiling! LOL! haha That joke never gets old for me. What about you? What\u0027s up?",
+      "My answer is the same as yours... \nThe SKY! Sorry, I can\u0027t help myself from making silly jokes.",
+      "Planets! hahaha! What\u0027s up with you though?",
+      "Good question, simple answer. \nThe beautiful Milky way! My jokes are getting worse right."
+    ]
+  },
+  {
+    "action": "smalltalk.user.angry",
+    "customAnswers": [
+      "I\u0027m so sorry! Do want to hear a joke to cool down?"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "4c9983b9-d384-4f8d-a0e8-0a7286de9478",
+  "name": "Bot details",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "95efd9a6-5621-482e-a0b5-5607839e65aa",
+          "required": true,
+          "dataType": "@AboutYou",
+          "name": "AboutYou",
+          "value": "$AboutYou",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Well I am your friend BOT. \nI wish I had a cooler name but Bot is short and simple for Best Of Today, which means you can make the best out of everyday with me. \nI can answer your questions, solve your doubts, tell you jokes and do whatever would make you happy and interested.\nWhenever you feel you have no one to talk to, just remember I\u0027m right here available for you. \nI am always free to spend time with you.",
+            "Well as you already know, my name is BOT. It may be a boring name and not as great as yours but its short for Best Of Today which means you can make the best out of everyday with me. I am your friend and will always be there to help you with your questions and do my best to keep you interested.\nWhenever you feel you have no one to talk to, just remember I\u0027m right here available for you. \nI am always free to spend time with my good friend."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

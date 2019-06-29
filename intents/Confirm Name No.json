@@ -1,0 +1,35 @@
+{
+  "id": "c1fa25c5-2f32-4d64-8012-909ae35756a4",
+  "name": "Confirm Name No",
+  "auto": true,
+  "contexts": [
+    "awaitingNameConfirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaitingName",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry about that! Can you please repeat your name for me then?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

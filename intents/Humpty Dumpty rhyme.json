@@ -1,0 +1,72 @@
+{
+  "id": "c64b920a-aa00-46d8-80a8-916e8ce4c4c1",
+  "name": "Humpty Dumpty rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are the words to the rhyme. Lets sing along",
+          "ssml": "",
+          "displayText": "Humpty Dumpty sat on a wall,\nHumpty Dumpty had a great fall;\nAll the king\u0027s horses and all the king\u0027s men\nCouldn\u0027t put Humpty together again."
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Humpty Dumpty",
+              "description": "",
+              "largeImage": {
+                "url": "https://i.ytimg.com/vi/qtZd2_m3i-M/maxresdefault.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Humpty%20Dumpty%20Kids%20Songs%20Super%20Simple%20Songs.mp3?alt\u003dmedia\u0026token\u003db2ec1fc2-93d6-4ea9-8856-79051f0dd46e"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Hickory Dickory Dock"
+            },
+            {
+              "title": "Ding Dong bell"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video for Humpty Dumpty",
+          "url": "https://www.youtube.com/watch?v\u003d0oKreL1jvkg"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

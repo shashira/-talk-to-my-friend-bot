@@ -1,0 +1,72 @@
+{
+  "id": "b90d85e5-5c36-404f-a27d-da3aa4f50f85",
+  "name": "Twinkle Twinkle Little star rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "here are the words for this rhyme. Lets all sing along!",
+          "ssml": "",
+          "displayText": "Twinkle, twinkle, little star, \nHow I wonder what you are! \n\nUp above the world so high, \nLike a diamond in the sky."
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Twinkle twinkle little star",
+              "description": "",
+              "largeImage": {
+                "url": "https://i.ytimg.com/vi/-JRJibhgwUQ/maxresdefault.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Twinkle%20Twinkle%20Little%20Star.mp3?alt\u003dmedia\u0026token\u003d9e40f7db-c986-4022-8165-f41321e91dd7"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Baa Baa black sheep"
+            },
+            {
+              "title": "London Bridge"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video for twinkle twinkle little star",
+          "url": "https://www.youtube.com/watch?v\u003dyCjJyiqpAuU"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

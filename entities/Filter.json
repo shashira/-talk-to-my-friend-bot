@@ -1,0 +1,9 @@
+{
+  "id": "5a0d9a27-6992-44a7-83be-cd7501b64e0e",
+  "name": "Filter",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

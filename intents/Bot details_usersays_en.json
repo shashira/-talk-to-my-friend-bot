@@ -1,0 +1,262 @@
+[
+  {
+    "id": "9bde4976-0efd-46cf-b238-ff008746a7b2",
+    "data": [
+      {
+        "text": "I want to know ",
+        "userDefined": false
+      },
+      {
+        "text": "about you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53476782-8074-4bbf-8868-15b50e8bb3db",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "want to know you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87b3e2ae-2a65-4be7-8b97-f3be5eb7f1d9",
+    "data": [
+      {
+        "text": "I wanna ",
+        "userDefined": false
+      },
+      {
+        "text": "know about you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4f519be-4b56-4169-9735-9968e3536d54",
+    "data": [
+      {
+        "text": "i wanna ",
+        "userDefined": false
+      },
+      {
+        "text": "know u",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5352c50a-fe0b-4a2e-95b0-ce10a27e9292",
+    "data": [
+      {
+        "text": "tell me ",
+        "userDefined": false
+      },
+      {
+        "text": "about yourself",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ba2f071-4753-4145-a1fc-8d594f604570",
+    "data": [
+      {
+        "text": "talk ",
+        "userDefined": false
+      },
+      {
+        "text": "about yourself",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53a9115e-7e98-43f5-8a1c-6d7da836c45f",
+    "data": [
+      {
+        "text": "tell me about you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2f40b13e-4dd4-4256-a4f8-c2cbab85bd9b",
+    "data": [
+      {
+        "text": "are you my friend",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c50dddd-2b20-4025-b962-eddc6f1b4621",
+    "data": [
+      {
+        "text": "whats ur name",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "673f4430-d3fa-4bfe-a374-72db0ab47327",
+    "data": [
+      {
+        "text": "What\u0027s your name",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "03e7052f-8d44-4eaa-bf42-1bb475647cda",
+    "data": [
+      {
+        "text": "what are you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b1bb0c1-6776-4ca2-b119-ea7c3c59f550",
+    "data": [
+      {
+        "text": "what are you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0a5e7ee-52bc-4ea1-a98d-910baf810bcd",
+    "data": [
+      {
+        "text": "who are you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8fe2ca91-b02f-4981-a141-afba0b5e4159",
+    "data": [
+      {
+        "text": "What is your name",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4696b1eb-ba9b-4acd-9824-975bf68a6820",
+    "data": [
+      {
+        "text": "whats your name",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5396b156-9696-43e8-98b8-bdd13a59e0fe",
+    "data": [
+      {
+        "text": "who are you",
+        "alias": "AboutYou",
+        "meta": "@AboutYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

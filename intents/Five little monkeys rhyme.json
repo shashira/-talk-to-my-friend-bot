@@ -1,0 +1,81 @@
+{
+  "id": "51e85a5b-c705-4c4d-be53-c080c0dba8d6",
+  "name": "Five little monkeys rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "90de3d34-8f53-4a40-a816-0353480732a5",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "here are the words to this rhyme. Let us all sing along!",
+          "ssml": "",
+          "displayText": "Five little monkeys jumping on the bed\nOne fell off and bumped his head\nMama called the doctor\nAnd the doctor said\nNo more monkeys jumping on the bed\nFour little monkeys jumping on the bed \nOne fell off and bumped his head\nMama called the doctor \nAnd the doctor said,\nNo more monkeys jumping on the bed\nThree little monkeys jumping on the bed\nOne fell off and bumped his head\nMama called the doctor \nAnd the doctor said,\nNo more monkeys jumping on the bed\nTwo little monkeys jumping on the bed\nOne fell off and bumped his head\nMama called the doctor\nAnd the doctor said,\nNo more monkeys jumping on the bed\nOne little monkey jumping on the bed\nOne fell off and bumped his head\nMama called the doctor \nAnd the doctor said,\nPut those monkeys right to bed"
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Five little monkeys",
+              "description": "",
+              "largeImage": {
+                "url": "https://i.ytimg.com/vi/VAL4w6JvDHc/maxresdefault.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Five%20Little%20Monkeys%20Jumping%20on%20the%20bed%20-%203D%20Animation%20English%20Nursery%20rhyme%20for%20children.mp3?alt\u003dmedia\u0026token\u003d1dce9004-1425-46df-b615-2a8a41480d75"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Hickory Dickory Dock"
+            },
+            {
+              "title": "Little Jack Horner"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video for five little monkeys",
+          "url": "https://www.youtube.com/watch?v\u003dLrM62pv56o0"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

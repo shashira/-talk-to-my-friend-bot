@@ -1,0 +1,46 @@
+{
+  "id": "62f81271-6dfd-4ae7-aa10-82c51e7e097c",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "awaitingName",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! let\u0027s introduce ourselves.\nI am Bot. What\u0027s your name?",
+            "Hello there! I am Bot. Who is this amazing person?",
+            "Hey! I\u0027m Bot. I want to know your awesome name, so can you please tell me?",
+            "Hey! What\u0027s your lovely name?",
+            "How can your friend Bot assist you today? But first.. \nTell me your name."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

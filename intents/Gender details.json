@@ -1,0 +1,41 @@
+{
+  "id": "ce1e0e40-6750-4bc1-a000-d6c0933c1c96",
+  "name": "Gender details",
+  "auto": true,
+  "contexts": [
+    "awaitingGender"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "289c4db0-3915-491b-a4a4-78699000d19c",
+          "required": true,
+          "dataType": "@GenderDetails",
+          "name": "GenderDetails",
+          "value": "$GenderDetails",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "So you are a cool #awaitingGender.GenderDetails. \nDo you want to know about me?\nJust ask \"who are you\"",
+            "I\u0027m gender neutral by the way. Now do you want to know about me?\nJust ask \"who are you\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "0e7ae1ec-ea3b-4366-ad43-605b91e93a3d",
+  "name": "Jack and Jill rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are the words for the rhyme. Lets all sing along.",
+          "ssml": "",
+          "displayText": "Jack and Jill went up the hill\nTo fetch a pail of water;\nJack fell down and broke his crown,\nand Jill came tumbling after.\n\nUp Jack got, and home did trot,\nAs fast as he could caper,\nTo old Dame Dob, who patched his nob\nWith vinegar and brown paper."
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Jack and Jill",
+              "description": "",
+              "largeImage": {
+                "url": "https://i.ytimg.com/vi/FYojUSFfuMg/maxresdefault.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Jack%20and%20jill%20went%20up%20the%20hill%20Jack%20and%20jill%20Nursery%20rhymes%20Baby%20songs%20Kiddiestv.mp3?alt\u003dmedia\u0026token\u003dfef56d91-2eaa-4dd5-8fd9-430516c274ad"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Ringa Ringa Roses"
+            },
+            {
+              "title": "Ding Dong Bell"
+            },
+            {
+              "title": "Johny Johny yes papa"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video for Jack and Jill",
+          "url": "https://www.youtube.com/watch?v\u003dFYojUSFfuMg"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

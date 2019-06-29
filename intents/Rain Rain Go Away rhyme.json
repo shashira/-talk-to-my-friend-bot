@@ -1,0 +1,72 @@
+{
+  "id": "c72ef057-6927-4a6f-a4aa-a9c4c378e634",
+  "name": "Rain Rain Go Away rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are the words to this rhyme.\nlets all sing along.",
+          "ssml": "",
+          "displayText": "Rain, rain, go away\nCome again another day\nDaddy wants to play\nRain, rain go away\nRain, rain, go away\nCome again another day\nMommy wants to play\nRain, rain, go away\nRain, rain, go away\nCome again another day\nBrother wants to play\nRain, rain, go away\nRain, rain, go away\nCome again another day\nSister wants to play\nRain, rain, go away\nRain, Rain, go away\nCome again another day\nAll the family wants to play\nRain, rain, go away"
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Rain Rain go away",
+              "description": "",
+              "largeImage": {
+                "url": "https://is3-ssl.mzstatic.com/image/thumb/Music3/v4/00/b0/8d/00b08d8a-6eb5-36d6-45f9-6992cd00e44d/859713928145_cover.jpg/600x600bf.png",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Rain%20Rain%20Go%20Away%20Super%20Simple%20Songs%20Sesame%20Street%20Nursery%20Rhyme%20Week.mp3?alt\u003dmedia\u0026token\u003dff0ef454-29fa-4450-bde3-1408f53fa0a1"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Five Little Monkeys"
+            },
+            {
+              "title": "Baa Baa black sheep"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video for Rain Rain go away",
+          "url": "https://www.youtube.com/watch?v\u003d0HkoKsrBGyc"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

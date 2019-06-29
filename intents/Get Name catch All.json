@@ -1,0 +1,58 @@
+{
+  "id": "d5bb22b7-0cdf-4823-9c48-b2f0f83aa0c1",
+  "name": "Get Name catch All",
+  "auto": true,
+  "contexts": [
+    "awaitingName"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaitingNameConfirm",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1d3a6e70-56ed-41a6-bfd2-c7765fa4560a",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you please tell me your name?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s the name of this awesome person?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Can you confirm that your name is $name ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

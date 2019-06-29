@@ -1,0 +1,86 @@
+{
+  "id": "81e88780-98fd-4268-96c3-b24e756b1f25",
+  "name": "Golf sport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b38676aa-1114-4435-96ed-c44e1520d959",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "golf",
+          "value": "$golf",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Golf is a club-and-ball sport in which players use various clubs to hit balls into a series of holes on a course in as few strokes as possible.\nGolf, unlike most ball games, cannot and does not utilize a standardized playing area, and coping with the varied terrains encountered on different courses is a key part of the game. The game at the usual level is played on a course with an arranged progression of 18 holes, though recreational courses can be smaller, often having nine holes.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Golf",
+              "description": "",
+              "largeImage": {
+                "url": "https://www.liveabout.com/thmb/frIRR8RyQN5xRXMm3zKXhGabyuY\u003d/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/golf_150415627-58bf0a8b5f9b58af5cb6408f.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://www.youtube.com/watch?v\u003d2yEQ1VEw1tc"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Basketball"
+            },
+            {
+              "title": "Tennis"
+            },
+            {
+              "title": "Cricket"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "How to play Golf?",
+          "url": "https://www.youtube.com/watch?v\u003d2yEQ1VEw1tc"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

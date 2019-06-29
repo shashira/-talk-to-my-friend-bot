@@ -1,0 +1,45 @@
+{
+  "id": "d8f89266-9ab9-49a0-bfc5-31acb4814fea",
+  "name": "WS \u0026 TS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "548d7022-a17f-46a2-82a5-1c38759bb192",
+          "required": true,
+          "dataType": "@Objects",
+          "name": "Objects",
+          "value": "$Objects",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "$Objects",
+          "url": "https://simple.wikipedia.org/wiki/ $Objects"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

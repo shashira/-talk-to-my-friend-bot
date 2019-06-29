@@ -1,0 +1,86 @@
+{
+  "id": "b4e4261c-321a-46f3-ac30-179b9dc14d2b",
+  "name": "Basketball sport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0bb9cfc1-f98b-4b4d-ad31-2b84fe24f874",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "basketball",
+          "value": "$basketball",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball through the defender\u0027s hoop while preventing the opposing team from shooting through their own hoop.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Basketball",
+              "description": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball through the defender\u0027s hoop while preventing the opposing team from shooting through their own hoop.",
+              "largeImage": {
+                "url": "https://4a7ysw4az4hv39taz0azxlnw-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/17072610_web1_raptors-pacers.jpg",
+                "accessibilityText": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball through the defender\u0027s hoop while preventing the opposing team from shooting through their own hoop."
+              },
+              "contentUrl": "https://4a7ysw4az4hv39taz0azxlnw-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/17072610_web1_raptors-pacers.jpg"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Hockey"
+            },
+            {
+              "title": "Golf"
+            },
+            {
+              "title": "Tennis"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "More about Basketball",
+          "url": "https://en.wikipedia.org/wiki/Basketball"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

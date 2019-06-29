@@ -1,0 +1,52 @@
+[
+  {
+    "value": "biology",
+    "synonyms": [
+      "biology"
+    ]
+  },
+  {
+    "value": "chemistry",
+    "synonyms": [
+      "chemistry"
+    ]
+  },
+  {
+    "value": "enlish",
+    "synonyms": [
+      "enlish"
+    ]
+  },
+  {
+    "value": "hindi",
+    "synonyms": [
+      "hindi"
+    ]
+  },
+  {
+    "value": "maths",
+    "synonyms": [
+      "math",
+      "mathematics",
+      "maths"
+    ]
+  },
+  {
+    "value": "physics",
+    "synonyms": [
+      "physics"
+    ]
+  },
+  {
+    "value": "science",
+    "synonyms": [
+      "science"
+    ]
+  },
+  {
+    "value": "social studies",
+    "synonyms": [
+      "social studies"
+    ]
+  }
+]

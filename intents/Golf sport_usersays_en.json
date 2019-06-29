@@ -1,0 +1,110 @@
+[
+  {
+    "id": "a11479cd-e114-46a8-a3f0-aaffb697d88e",
+    "data": [
+      {
+        "text": "how is ",
+        "userDefined": false
+      },
+      {
+        "text": "golf",
+        "alias": "golf",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " played",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "82107732-87d9-42a1-9485-a4268c3ad3bc",
+    "data": [
+      {
+        "text": "how to play ",
+        "userDefined": false
+      },
+      {
+        "text": "golf",
+        "alias": "golf",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ebf99829-5e31-4dc0-893f-7195455cebf1",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "golf",
+        "alias": "golf",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "12dd9b97-c869-401b-80ce-ff3eaf829320",
+    "data": [
+      {
+        "text": "golf",
+        "alias": "golf",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "55aa1927-3bde-42aa-a20f-8ea9fad2d26e",
+    "data": [
+      {
+        "text": "tell me something about ",
+        "userDefined": false
+      },
+      {
+        "text": "golf",
+        "alias": "golf",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "72cd933d-48a0-41af-a2e0-ff19c562a9bc",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "golf",
+        "alias": "golf",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

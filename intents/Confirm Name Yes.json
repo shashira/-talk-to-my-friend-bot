@@ -1,0 +1,39 @@
+{
+  "id": "2a947606-a879-41a8-af71-6d37e9861bf8",
+  "name": "Confirm Name Yes",
+  "auto": true,
+  "contexts": [
+    "awaitingNameConfirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "awaitingAge",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Oh wow! Nice name #awaitingNameConfirm.name!\nCan you tell me your age?",
+            "That\u0027s a pretty nice name. I wish my name was as awesome as yours.\nNow please tell me your age.",
+            "Cool name! What\u0027s your age?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

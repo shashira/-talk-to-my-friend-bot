@@ -1,0 +1,128 @@
+[
+  {
+    "id": "11217fc9-d48d-4632-af2e-24a3a708bc78",
+    "data": [
+      {
+        "text": "hockey",
+        "alias": "hockey",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b1f44639-fa5c-47d9-a514-a6a7d990adce",
+    "data": [
+      {
+        "text": "how to play ",
+        "userDefined": false
+      },
+      {
+        "text": "hockey",
+        "alias": "hockey",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75c9da3b-879d-4cf3-aa06-37d6ae67e91d",
+    "data": [
+      {
+        "text": "how is ",
+        "userDefined": false
+      },
+      {
+        "text": "hockey",
+        "alias": "hockey",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " played",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32d44702-da99-47ea-ba21-08cf15ff995c",
+    "data": [
+      {
+        "text": "what is the game ",
+        "userDefined": false
+      },
+      {
+        "text": "hockey",
+        "alias": "hockey",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e05e4f19-5e7a-43a6-a9f5-d3ac5c756f0e",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "hockey",
+        "alias": "hockey",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "774fb1bf-7d26-4fae-97a0-d6b24f75d4e9",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "hockey",
+        "alias": "hockey",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b0d2885-6f82-4840-a384-ebd710baad41",
+    "data": [
+      {
+        "text": "tell me something about ",
+        "userDefined": false
+      },
+      {
+        "text": "hockey",
+        "alias": "hockey",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

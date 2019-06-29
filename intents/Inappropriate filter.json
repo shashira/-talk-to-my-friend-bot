@@ -1,0 +1,36 @@
+{
+  "id": "76dfff02-0526-4c26-8f35-6bf669c01be9",
+  "name": "Inappropriate filter",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1ec970ec-7399-4831-9e9a-7fc712c7a429",
+          "required": true,
+          "dataType": "@Filter",
+          "name": "Filter",
+          "value": "$Filter",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry! This content is not appropriate for your age."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

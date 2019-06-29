@@ -1,0 +1,96 @@
+{
+  "id": "28e389b7-12b4-4837-a25e-4553ab1663dd",
+  "name": "Football sport",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "412ea376-7da0-4c4a-804e-f047bc0c5146",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "football",
+          "value": "$football",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you like football?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you interested in football?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Football, more commonly known as football or soccer, is a team sport played with a spherical ball between two teams of eleven players. It is played by 250 million players in over 200 countries and dependencies, making it the world\u0027s most popular sport.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Football",
+              "description": "",
+              "largeImage": {
+                "url": "https://graceroadministries.com/wp-content/uploads/2017/07/soccer-ball_180738359.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://www.youtube.com/watch?v\u003d1vNmYNH8d4I"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Cricket"
+            },
+            {
+              "title": "Basketball"
+            },
+            {
+              "title": "Tennis"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "How to play Football",
+          "url": "https://www.youtube.com/watch?v\u003d1vNmYNH8d4I"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

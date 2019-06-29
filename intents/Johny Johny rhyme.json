@@ -1,0 +1,72 @@
+{
+  "id": "7d701f26-3896-46c4-8992-62bee85af82b",
+  "name": "Johny Johny rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "here are the words to this rhyme. Let us all sing along!",
+          "ssml": "",
+          "displayText": "Johny Johny\nYes Papa,\nEating sugar?\nNo Papa\nTelling lies?\nNo Papa\nOpen your mouth\nHa! Ha! Ha!"
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Johny Johny yes papa",
+              "description": "",
+              "largeImage": {
+                "url": "https://image.winudf.com/v2/image/am9obnlqb2hueS55ZXNwYXBhLm51cnNlcnlyaHltZXNvbmdfc2NyZWVuc2hvdHNfMl83MmY2ODU5/screen-2.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/Johny%20Johny%20Yes%20Papa%20THE%20BEST%20Song%20for%20Children%20LooLoo%20Kids.mp3?alt\u003dmedia\u0026token\u003db5314004-63bb-45bd-99e0-5ee9d58e14f6"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Five little monkeys"
+            },
+            {
+              "title": "London bridge"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video on Johny Johny yes papa",
+          "url": "https://www.youtube.com/watch?v\u003dF4tHL8reNCs"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

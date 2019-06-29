@@ -1,0 +1,45 @@
+{
+  "id": "3d65e5e2-4dea-4003-9e5c-b9a956b9975d",
+  "name": "help studying",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "71626f36-c1a8-470d-8842-a8c761b16e73",
+          "required": false,
+          "dataType": "@subjects",
+          "name": "subjects",
+          "value": "$subjects",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Best Learning app",
+          "url": "https://www.curiousworld.com/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

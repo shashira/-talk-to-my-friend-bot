@@ -1,0 +1,74 @@
+{
+  "id": "e3399736-46cf-4cf9-a409-8e8578f98c27",
+  "name": "London bridge is falling down rhyme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are the words for London bridge is falling down. Let\u0027s all sing along!",
+          "ssml": "",
+          "displayText": "London Bridge is falling down,\nFalling down, falling down,\nLondon Bridge is falling down,\nMy fair Lady.\n\nBuild it up with wood and clay,\nWood and clay, wood and clay,\nBuild it up with wood and clay,\nMy fair Lady.\n \nWood and clay will wash away,\nWash away, wash away,\nWood and clay will wash away,\nMy fair Lady.\n\nBuild it up with bricks and mortar,\nBricks and mortar, bricks and mortar,\nBuild it up with bricks and mortar,\nMy fair Lady.\n \nBricks and mortar will not stay,\nWill not stay, will not stay,\nBricks and mortar will not stay,\nMy fair Lady.\n\nBuild it up with iron and steel,\nIron and steel, iron and steel,\nBuild it up with iron and steel,\nMy fair Lady."
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "London bridge is falling down",
+              "description": "",
+              "largeImage": {
+                "url": "https://i.ytimg.com/vi/ASXFuhgGIzA/hqdefault.jpg",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://firebasestorage.googleapis.com/v0/b/talktomyfriendbot-towphr.appspot.com/o/London%20Bridge%20Is%20Falling%20Down%20Mother%20Goose%20Club%20Rhymes%20for%20Kids.mp3?alt\u003dmedia\u0026token\u003d768404ab-c050-4c07-bc33-7e536fa2fa19"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Ringa Ringa Roses"
+            },
+            {
+              "title": "Rain Rain go away"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Video on London bridge is falling down",
+          "url": "https://www.youtube.com/watch?v\u003dASXFuhgGIzA"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

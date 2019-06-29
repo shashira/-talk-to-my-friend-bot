@@ -1,0 +1,78 @@
+[
+  {
+    "id": "7190107f-d3a1-4c64-9de4-4b49e93b24e5",
+    "data": [
+      {
+        "text": "what is the meaning of ",
+        "userDefined": false
+      },
+      {
+        "text": "moron",
+        "alias": "Filter",
+        "meta": "@Filter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c51473f-ff39-4f84-9da1-cf061f969f31",
+    "data": [
+      {
+        "text": "Picture of ",
+        "userDefined": false
+      },
+      {
+        "text": "vagina",
+        "alias": "Filter",
+        "meta": "@Filter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d286b20a-ae1b-446a-b296-18ec4492b26f",
+    "data": [
+      {
+        "text": "How does ",
+        "userDefined": false
+      },
+      {
+        "text": "intercourse",
+        "alias": "Filter",
+        "meta": "@Filter",
+        "userDefined": false
+      },
+      {
+        "text": " happen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a09279d2-e07d-4bda-b59b-334aca72f1df",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "sex",
+        "alias": "Filter",
+        "meta": "@Filter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
